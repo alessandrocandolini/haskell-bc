@@ -1,0 +1,14 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "haskell-bc:lib"
+
+    - path: "./app/Main.hs"
+      component: "haskell-bc:exe:haskell-bc-exe"
+
+    - path: "./app/Paths_haskell-bc.hs"
+      component: "haskell-bc:exe:haskell-bc-exe"
+
+    - path: "./test"
+      component: "haskell-bc:test:haskell-bc-test"
+
