@@ -12,6 +12,7 @@ dependencies:
 - optparse-generic
 - aeson
 - neat-interpolation
+- witherable
 
 default-extensions:
 - OverloadedStrings
